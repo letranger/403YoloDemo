@@ -1,0 +1,11 @@
+# 通用開發（macOS 本地驗證）
+ultralytics==8.3.10
+torch>=2.0.0
+numpy>=1.23.0
+opencv-python>=4.7.0; platform_system != "Linux"
+pyttsx3>=2.90
+
+# Jetson Nano 提示：
+# - 請以 apt 安裝 OpenCV（python3-opencv），避免 pip 的 opencv-python
+# - PyTorch 請依 JetPack 版本安裝對應 wheel（見 README 連結）
+
