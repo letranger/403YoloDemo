@@ -7,3 +7,8 @@ __pycache__/
 *.mp4
 *.mov
 
+
+.venv311/
+.venv/
+venv/
+__pycache__/
